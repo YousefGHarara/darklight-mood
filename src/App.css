@@ -1,0 +1,65 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222;
+}
+
+.theme
+{
+  width: 80px;
+  height: 80px;
+  background-color: #26302F;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px #333;
+  transform: scale(.5);
+}
+
+.theme i
+{
+  font-size: 36px;
+  position: absolute;
+  color: #fff;
+  visibility: hidden;
+  /* transition: 1s ease; */
+}
+
+#dark .theme .sun
+{
+  visibility: visible;
+  color: #222;
+}
+
+#light .theme .moon
+{
+  visibility: visible;
+  
+}
+
+#light
+{
+  background-color: #f2f2f2;
+}
+
+#dark .theme
+{
+  background-color: #f2f2f2;
+  box-shadow: 0 0 20px #f2f2f2;
+}

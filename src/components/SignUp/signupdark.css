@@ -1,0 +1,22 @@
+.sign-up.dark
+{
+  background-color: #eee;
+  box-shadow: 4px 4px 10px #fff;
+}
+
+.sign-up.dark .content .title h2
+{
+  color: #333;
+}
+
+.sign-up.dark .content .body input
+{
+  background-color: #0A4D49;
+  color: #fff;
+}
+
+.sign-up.dark .content .btn button
+{
+  background-color: #0A4D49;
+  color: #Fff;
+}

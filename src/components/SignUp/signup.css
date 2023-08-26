@@ -1,0 +1,66 @@
+
+.sign-up
+{
+  width: 400px;
+  height: 350px;
+  background-color: teal;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px #333;
+  padding: 30px 50px;
+}
+
+.sign-up .content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sign-up .content .title h2
+{
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.sign-up .content .body
+{
+  width: 100%;
+
+}
+
+.sign-up .content .body input
+{
+  width: 100%;
+  margin: 10px 0;
+  height: 35px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+}
+
+.sign-up .content .body input:focus
+{
+  border: none;
+  outline: none;
+}
+
+.sign-up .content .btn
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up .content .btn button
+{
+  width: 70px;
+  height: 27px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
